@@ -1,5 +1,5 @@
 """
-Link: https://projecteuler.net/problem=1
+Link: https://projecteuler.net/problem=3
 Author: David Alarcón Segarra
 
 ----------------------------------------

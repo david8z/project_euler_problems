@@ -10,7 +10,7 @@ What is the largest prime factor of the number 600851475143 ?
 """
 import math
 
-def highestPrimeFactor(n):     
+def largestPrimeFactor(n):     
     while n % 2 == 0:
         n = n / 2
     if n == 1:
@@ -21,4 +21,4 @@ def highestPrimeFactor(n):
                 print(i)
             n = n / i
              
-highestPrimeFactor(600851475143)
+largestPrimeFactor(600851475143)

@@ -16,6 +16,9 @@ while len(primes) < 10001:
     for p in primes:
         if i % p == 0:
             break;
+        elif i / p < 2 :
+            aux = len(primes)
+            break
         else:
             aux+=1
         
